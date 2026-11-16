@@ -5,7 +5,7 @@ using STOP_MODE = FMOD.Studio.STOP_MODE;
 
 public class WS2 : MonoBehaviour
 {
-    public floar timer = 5f;
+    public float timer = 5f;
     public EventInstance instance;
     public EventReference reference;
     
