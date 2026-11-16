@@ -22,8 +22,8 @@ public class WS2 : MonoBehaviour
         timer -= Time.deltaTime;
         if (timer <= 0f)
         {
-            instance.stop(STOP_MODE.ALLOW_FADEOUT)
-            
+            instance.setParameterByName("Distance", 1);
+
         }  
     }
 }
