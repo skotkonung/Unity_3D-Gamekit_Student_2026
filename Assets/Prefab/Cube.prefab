@@ -127,10 +127,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WS2
   elementalPower: 1
   charInfo:
-    name: Sebbe
+  - name: Sebbe
     elementalPower: 0
-    speed: -2
-    health: 9001
+    speed: 0
+    health: 0
     canFly: 0
-    damagePower: 2
+    damagePower: 0
+  - name: Samus
+    elementalPower: 0
+    speed: 0
+    health: 0
+    canFly: 0
+    damagePower: 0
+  - name: Mario
+    elementalPower: 0
+    speed: 0
+    health: 0
+    canFly: 0
+    damagePower: 0
+  - name: Zack
+    elementalPower: 0
+    speed: 0
+    health: 0
+    canFly: 0
+    damagePower: 0
   values: 600300009c0000003b220000
