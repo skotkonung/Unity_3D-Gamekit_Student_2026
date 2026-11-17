@@ -125,11 +125,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21838cb991354bb5b80b010c04b5b62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WS2
-  timer: 5
-  reference:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+  elementalPower: 0
+  charInfo:
+    name: Sebbe
+    elementalPower: 0
+    speed: -2
+    health: 9001
+    canFly: 0
+    damagePower: 2
