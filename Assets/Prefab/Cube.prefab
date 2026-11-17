@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21838cb991354bb5b80b010c04b5b62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WS2
-  elementalPower: 0
+  elementalPower: 1
   charInfo:
     name: Sebbe
     elementalPower: 0
@@ -133,3 +133,4 @@ MonoBehaviour:
     health: 9001
     canFly: 0
     damagePower: 2
+  values: 600300009c0000003b220000
