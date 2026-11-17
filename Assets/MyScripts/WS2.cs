@@ -28,31 +28,29 @@ public struct CharInfo
 public class Ws2 : MonoBehaviour
 {
     public ElementalPower elementalPower;
-    public CharInfo charInfo;
+    public CharInfo[] charInfo;
 
     public int[] values;
 
     private void Start()
     {
-        switch (elementalPower)
+        foreach (CharInfo info in charInfo)
         {
-            case ElementalPower.Fire:
-                Debug.Log("Fire");
-                break;
-            case ElementalPower.Ice:
-                Debug.Log("Ice");
-                break;
-            case ElementalPower.Lightning:
-                Debug.Log("Lightning");
-                break;
-            case ElementalPower.Earth:
-                Debug.Log("Earth");
-                break;
-        }
-        
-        foreach (int i in values)
-        {
-            Debug.Log(i);
+            switch (info.name)
+            {
+                case "Sebbe":
+                    Debug.Log("Har du spelat Metroid?");
+                    break;
+                case "Samus":
+                    Debug.Log("...");
+                    break;
+                case "Mario":
+                    Debug.Log("Wahoo!");
+                    break;
+                default:
+                    Debug.Log("Ajdå");
+                    break;
+            }
         }
     }
     
@@ -62,7 +60,7 @@ public class Ws2 : MonoBehaviour
         {
             int variable = values[Random.Range(0, values.Length)];
             
-            if (variable <= charInfo.health)
+            if (variable <= charInfo[0].health)
             {
                 Debug.Log(variable);
             }
